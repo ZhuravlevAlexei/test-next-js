@@ -1,0 +1,13 @@
+/*Add the @tailwind directives for each of Tailwind’s layers to your main CSS file.*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: #fafafa;
+}
