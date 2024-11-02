@@ -10,6 +10,7 @@ export interface ButtonProps
 
 export default function Button({ disabled, ...rest }: ButtonProps) {
   const ert = 1
+  console.log(ert)
 
   return (
     <button
