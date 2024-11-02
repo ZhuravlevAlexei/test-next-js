@@ -9,6 +9,8 @@ export interface ButtonProps
 }
 
 export default function Button({ disabled, ...rest }: ButtonProps) {
+  const ert = 1
+
   return (
     <button
       {...rest}
